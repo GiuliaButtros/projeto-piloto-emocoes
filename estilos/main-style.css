@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(240, 235, 232);
+}
+
+nav{
+    background-color: darkseagreen;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.409);
+}
+
+nav a:hover{
+    color: rgb(16, 77, 42);
+}
+
+main{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    padding: 15px;
+    margin: auto;
+}
+
+main section{
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section h2{
+    
+    padding: 0px 15px 15px 15px;
+}
+
