@@ -9,6 +9,7 @@
 
 body{
     background-color: rgb(240, 235, 232);
+    height: 100vh;
 }
 
 nav{
@@ -51,15 +52,83 @@ main section{
     background-color: white;
     padding: 20px;
     height: 100%;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: 100px;
 }
 
 section h2{
-    
     padding: 0px 15px 15px 15px;
 }
 
+section div.container{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;    */
+}
+
+section div.roda{
+    background-color: antiquewhite;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+div.roda .entry{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    clip-path: polygon(50% 50%, 100% 100%, 100% 0);
+    transform-origin: 100% 100%;        
+    /*transform: translate(-50%, -50%);*/
+}
+
+.alegria{
+    background-color: khaki;
+    
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.admiracao{
+    background-color: darkseagreen;
+    
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.terror{
+    background-color: seagreen;
+    
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.espanto{
+    background-color: lightskyblue;
+    
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.pesar{
+    background-color: royalblue;
+    
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.repugnancia{
+    background-color: mediumorchid;
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+
+.ira{
+    background-color: lightcoral;
+    transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.vigilancia{
+    background-color: sandybrown;
+    transform: translate(-50%, -50%) rotate(315deg);
+}
