@@ -37,7 +37,7 @@ nav a:hover{
 }
 
 main{
-    height: 100vh;
+    height: 85vh;
 
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ main section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
 }
 
 section h2{
@@ -76,7 +76,8 @@ section div.roda{
     height: 50vh;
     border-radius: 50%;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    
 }
 
 div.roda .entry{
@@ -84,8 +85,19 @@ div.roda .entry{
     width: 100%;
     position: absolute;
     clip-path: polygon(50% 50%, 100% 100%, 100% 0);
-    transform-origin: 100% 100%;        
-    /*transform: translate(-50%, -50%);*/
+    transform-origin: 100% 100%;      
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry:hover{
+    filter: saturate(1.3);
+}
+
+.entry > p{
+    position: absolute;
 }
 
 .alegria{
@@ -94,10 +106,20 @@ div.roda .entry{
     transform: translate(-50%, -50%) rotate(0deg);
 }
 
+.alegria p{
+    
+    left: 255px;
+}
+
 .admiracao{
     background-color: darkseagreen;
     
     transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.admiracao p{
+    left: 255px;
+    transform: rotate(-45deg);
 }
 
 .terror{
@@ -106,10 +128,20 @@ div.roda .entry{
     transform: translate(-50%, -50%) rotate(90deg);
 }
 
+.terror p{
+    left: 255px;
+    transform: rotate(-90deg);
+}
+
 .espanto{
     background-color: lightskyblue;
     
     transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.espanto p{
+    left: 255px;
+    transform: rotate(-135deg);
 }
 
 .pesar{
@@ -118,9 +150,19 @@ div.roda .entry{
     transform: translate(-50%, -50%) rotate(180deg);
 }
 
+.pesar p{
+    left: 255px;
+    transform: rotate(-180deg);
+}
+
 .repugnancia{
     background-color: mediumorchid;
     transform: translate(-50%, -50%) rotate(225deg);
+}
+
+.repugnancia p{
+    left: 255px;
+    transform: rotate(136deg);
 }
 
 .ira{
