@@ -101,7 +101,7 @@ div.roda .entry{
 }
 
 .alegria{
-    background-color: khaki;
+    background-color: rgb(247, 237, 144);
     
     transform: translate(-50%, -50%) rotate(0deg);
 }
@@ -112,47 +112,50 @@ div.roda .entry{
 }
 
 .admiracao{
-    background-color: darkseagreen;
+    background-color: rgb(125, 197, 125);
     
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .admiracao p{
-    top: 240px;
-    left: 255px;
+    top: 238px;
+    left: 284px;
     transform: rotate(-45deg);
 }
 
 .terror{
-    background-color: seagreen;
+    background-color: rgb(36, 145, 83);
     
     transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .terror p{
-    left: 255px;
+    top: 249px;
+    left: 301px;
     transform: rotate(-90deg);
 }
 
 .espanto{
-    background-color: lightskyblue;
+    background-color: rgb(117, 193, 240);
     
     transform: translate(-50%, -50%) rotate(135deg);
 }
 
 .espanto p{
-    left: 255px;
+    top: 255px;
+    left: 291px;
     transform: rotate(-135deg);
 }
 
 .pesar{
-    background-color: royalblue;
+    background-color: rgb(96, 129, 228);
     
     transform: translate(-50%, -50%) rotate(180deg);
 }
 
 .pesar p{
-    left: 255px;
+    top: 250px;
+    left: 277px;
     transform: rotate(-180deg);
 }
 
@@ -162,16 +165,29 @@ div.roda .entry{
 }
 
 .repugnancia p{
-    left: 255px;
+    top: 243px;
+    left: 259px;
     transform: rotate(136deg);
 }
 
 .ira{
-    background-color: lightcoral;
+    background-color: rgb(224, 117, 117);
     transform: translate(-50%, -50%) rotate(270deg);
 }
 
+.ira p{
+    top: 243px;
+    left: 315px;
+    transform: rotate(-270deg);
+}
+
 .vigilancia{
-    background-color: sandybrown;
+    background-color: rgb(255, 162, 81);
     transform: translate(-50%, -50%) rotate(315deg);
+}
+
+.vigilancia p{
+    top: 246px;
+    left: 282px;
+    transform: rotate(-315deg);
 }
