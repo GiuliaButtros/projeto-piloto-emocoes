@@ -76,7 +76,7 @@ section div.roda{
     height: 50vh;
     border-radius: 50%;
     position: relative;
-    /*overflow: hidden;*/
+    overflow: hidden;
     
 }
 
@@ -107,8 +107,8 @@ div.roda .entry{
 }
 
 .alegria p{
-    
-    left: 255px;
+    top: 240px;
+    left: 260px;
 }
 
 .admiracao{
@@ -118,6 +118,7 @@ div.roda .entry{
 }
 
 .admiracao p{
+    top: 240px;
     left: 255px;
     transform: rotate(-45deg);
 }
