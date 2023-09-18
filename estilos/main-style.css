@@ -8,24 +8,25 @@
 }
 
 body{
-    background-color: rgb(240, 235, 232);
+    background-color:white;
     height: 100vh;
 }
 
 nav{
-    background-color: darkseagreen;
+    /*background-color: rgb(203, 189, 167);*/
     height: 35px;
+    padding: 0px 15px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    
 }
 
 nav a{
     padding: 0px 10px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1.3em;
@@ -36,23 +37,28 @@ nav a:hover{
     color: rgb(16, 77, 42);
 }
 
+nav h1{
+    /*background-color: rgb(203, 189, 167);*/
+    font-size: 2em;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
 main{
     height: 85vh;
+    margin-top: 35px;
 
     display: flex;
     flex-direction: column;
 }
 
-main h1{
-    padding: 15px;
-    margin: auto;
-}
-
 main section{
     background-color: white;
-    padding: 20px;
+    padding: 20px 0px;
     height: 100%;
     margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.219);
 
     display: flex;
     flex-direction: column;
@@ -62,6 +68,61 @@ main section{
 
 section h2{
     padding: 0px 15px 15px 15px;
+}
+
+section div.emocoes-faixa{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+div.emocoes-faixa div.tag{
+    background-color: rgba(206, 178, 158, 0.406);
+    width: 12.5%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+div.tag > p{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif, Courier, monospace, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.217);
+}
+
+div.emocoes-faixa div.alegria-faixa:hover{
+    background-color: rgb(250, 243, 173);
+}
+
+div.emocoes-faixa div.admiracao-faixa:hover{
+    background-color: rgb(167, 219, 167);
+}
+
+div.emocoes-faixa div.terror-faixa:hover{
+    background-color: rgb(116, 185, 146);
+}
+
+div.emocoes-faixa div.espanto-faixa:hover{
+    background-color: rgb(161, 212, 245);
+}
+
+div.emocoes-faixa div.pesar-faixa:hover{
+    background-color: rgb(154, 178, 250);
+}
+
+div.emocoes-faixa div.repugnancia-faixa:hover{
+    background-color: rgb(212, 151, 227);
+}
+
+div.emocoes-faixa div.ira-faixa:hover{
+    background-color: rgb(228, 159, 159);
+}
+
+div.emocoes-faixa div.vigilancia-faixa:hover{
+    background-color: rgb(255, 190, 134);
 }
 
 section div.container{
@@ -77,6 +138,8 @@ section div.roda{
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+
+    display: none; /* DEIXAR??? */
     
 }
 
