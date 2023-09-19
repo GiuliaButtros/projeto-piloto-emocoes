@@ -153,13 +153,16 @@ article div#conteudo{
     align-items: center;
 }
 
-div#conteudo h3{
-    font-size: 2em;
-    width: 250px;
+div#conteudo h3, h4, h5{
     padding: 15px;
     border: 5px solid rgb(241, 239, 151);
     border-radius: 15px;
+    text-align: center;
+}
 
+div#conteudo h3{
+    font-size: 2em;
+    width: 250px; 
 }
 
 div#conteudo h4{
@@ -173,10 +176,7 @@ div#conteudo h4{
 div#conteudo h5{
     font-size: 1.4em;
     width: 150px;
-    padding: 15px;
     margin-bottom: 30px;
-    border: 5px solid rgb(241, 239, 151);
-    border-radius: 15px;
 }
 
 div#conteudo p.topico{
