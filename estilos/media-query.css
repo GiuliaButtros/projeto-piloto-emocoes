@@ -57,6 +57,7 @@ Grandes telas: acima de 1920px
 }
 
 
+
 @media screen and (min-width: 780px){
     nav{
         height: 80px;
@@ -95,7 +96,7 @@ Grandes telas: acima de 1920px
 
     article div#conteudo{
         background-color: white;
-        height: 70vh;
+        height: 90vh;
         width: 80vw;
         padding: 50px 15px 15px 15px;
         margin: auto;
